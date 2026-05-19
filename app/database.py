@@ -1,7 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, declarative_base
 
-DATABASE_URL = "mysql+pymysql://root:caio2007@localhost/instagram_ai"
+DATABASE_URL = "mysql+pymysql://root:*********@localhost/instagram_ai"
 
 engine = create_engine(DATABASE_URL)
 
